@@ -1,7 +1,7 @@
 {
   "name": "ununura-monorepo",
-  "version": "NaN.NaN.NaN",
   "author": "Novout",
+  "version": "1.6.21",
   "license": "MIT",
   "description": "A Simplified Atomic CSS Engine",
   "private": true,
@@ -26,7 +26,7 @@
     "minor": "generi log minor",
     "major": "generi log major",
     "prepare": "husky install",
-    "prepublish": "lerna run build:minify"
+    "prepublish": "pnpm -r --filter=\"./packages/**/*\" run build:minify"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
