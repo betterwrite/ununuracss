@@ -1,6 +1,4 @@
-import { getGlobalReset, getGlobals } from 'packages/engine/src/globals'
-import { purgeCSS, purgeOnlyCssClassTitle } from 'packages/engine/src/purge'
-import { getSupportedInteger } from 'packages/engine/src/support'
+import { getGlobalReset, getGlobals, getSupportedInteger, purgeCSS, purgeOnlyCssClassTitle } from 'ununura-engine'
 import {
   resolveTitleCssClass,
   resolveCSS,

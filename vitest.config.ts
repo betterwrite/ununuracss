@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitest/config'
-import { resolve } from 'path'
+import { resolve } from 'pathe'
 
 export default defineConfig({
   test: {
     coverage: {
-      provider: 'c8',
+      provider: 'v8',
     },
     exclude: ['node_modules', 'dist', '.idea', '.git', '.cache', 'shared', 'website'],
     testTimeout: 10000,

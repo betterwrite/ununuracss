@@ -2,3 +2,9 @@ packages:
   - 'examples/*'
   - 'packages/*'
   - 'docs'
+
+shamefullyHoist: true
+ignoreWorkspaceRootCheck: true
+strictPeerDependencies: false
+autoInstallPeers: true
+resolutionMode: highest
