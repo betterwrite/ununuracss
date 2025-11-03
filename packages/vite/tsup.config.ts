@@ -6,4 +6,9 @@ export default defineConfig({
   clean: true,
   dts: true,
   external: ['vite', 'fontaine', 'babel-jsx-to-ast-fragmented'],
+  esbuildOptions(options) {
+    options.supported = {
+      'import-meta': true,
+    }
+  },
 })

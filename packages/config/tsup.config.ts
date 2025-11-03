@@ -6,4 +6,9 @@ export default defineConfig({
   clean: true,
   dts: true,
   external: ['c12'],
+  esbuildOptions(options) {
+    options.supported = {
+      'import-meta': true,
+    }
+  },
 })

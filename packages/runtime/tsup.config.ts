@@ -5,4 +5,9 @@ export default defineConfig({
   format: ['iife'],
   clean: true,
   dts: true,
+  esbuildOptions(options) {
+    options.supported = {
+      'import-meta': true,
+    }
+  },
 })
