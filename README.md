@@ -18,7 +18,7 @@
 - [Vue](./packages/vite/README.md), [React/Preact/Vue-JSX](./packages/vite/README.md), [Nuxt](./packages/nuxt/README.md), [Astro](./packages/astro/README.md) and [Svelte](./packages/vite/README.md);
 - [Fontaine](https://github.com/danielroe/fontaine) and [PostCSS](https://postcss.org/) integrated;
 - 0kb default injected .css;
-- Only scoped and JSX-Scoped;
+- JSX support;
 - Class-raw based;
 - Extend API;
 - Dynamic identifiers with unique/multiple engine;
