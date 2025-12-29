@@ -8,8 +8,8 @@
     A Real CSS Engine. Only Scoped.
   </p>
   <p align="center">
-  <img src="https://img.shields.io/github/lerna-json/v/Novout/ununuracss?color=ccc&label=version&logoColor=ccc&style=for-the-badge">
-  <img src="https://img.shields.io/github/actions/workflow/status/Novout/ununuracss/test.yml?color=%23cccccc&logoColor=%23cccccc&style=for-the-badge">
+  <img src="https://img.shields.io/github/lerna-json/v/betterwrite/ununuracss?color=ccc&label=version&logoColor=ccc&style=for-the-badge">
+  <img src="https://img.shields.io/github/actions/workflow/status/betterwrite/ununuracss/test.yml?color=%23cccccc&logoColor=%23cccccc&style=for-the-badge">
 </p>
 </p>
 
@@ -18,7 +18,7 @@
 - [Vue](./packages/vite/README.md), [React/Preact/Vue-JSX](./packages/vite/README.md), [Nuxt](./packages/nuxt/README.md), [Astro](./packages/astro/README.md) and [Svelte](./packages/vite/README.md);
 - [Fontaine](https://github.com/danielroe/fontaine) and [PostCSS](https://postcss.org/) integrated;
 - 0kb default injected .css;
-- Only scoped and JSX-Scoped;
+- JSX-Support;
 - Class-raw based;
 - Extend API;
 - Dynamic identifiers with unique/multiple engine;
